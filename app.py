@@ -6,8 +6,7 @@ from flask import (
 )
 import numpy as np
 import pandas as pd
-import pickle
-from tensorflow.keras.models import load_model   # <-- clean & stable loader
+import pickle   
 
 app = Flask(__name__)
 app.secret_key = "change_this_secret_key"
